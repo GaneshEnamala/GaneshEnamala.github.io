@@ -7,23 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ganesh Enamala- Java Developer</title>
   <link rel="stylesheet" href="asserts/css/style.css" />
-  <link rel="stylesheet" href="asserts/css/mediaqueries.css" />
+  <link rel="stylesheeta" href="asserts/css/mediaqueries.css" />
 </head>
 
 <body>
   <nav id="desktop-nav">
-    <img class="dp" src="asserts/images/Ganesh-Enamala.png">
+    <img class="dp" src="/asserts/images/Ganesh-Enamala.png" alt="Ganesh Enamala">
     <div class="logo">Ganesh Enamala</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
   <nav id="hamburger-nav">
     <div class="logo">Ganesh Enamala</div>
@@ -36,15 +34,14 @@
       <div class="menu-links">
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
         <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
   </nav>
   <section id="profile">
-    <!-- <div class="section__pic-container">
-      <img src="asserts/images/Ganesh.jpg" alt="Ganesh Enamala profile picture" />
-    </div> -->
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Ganesh Enamala</h1>
@@ -62,6 +59,9 @@
           <img src="asserts/images/linkedIn.png" alt="My LinkedIn profile" class="icon" /></a>
         <a href="https://github.com/GaneshEnamala" target="_blank">
           <img src="asserts/images/Github.png" alt="My Github profile" class="icon" /></a>
+        <a href="https://leetcode.com/u/GaneshE415/" target="_blank">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3628885-3030025.png"
+            alt="LeetCode profile" class="icon" /></a>
       </div>
     </div>
   </section>
@@ -69,15 +69,12 @@
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <!-- <div class="section__pic-container">
-        <img src="asserts/images/Ganesh.jpg" alt="Profile picture" class="about-pic" />
-      </div> -->
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
             <img src="asserts/images/experience.png" alt="Experience icon" class="icon" />
             <h3>Experience</h3>
-            <p>2+ years <br />Backend Development</p>
+            <p>2 years <br />Backend Development</p>
           </div>
           <div class="details-container">
             <img src="asserts/images/education.png" alt="Education icon" class="icon" />
@@ -87,12 +84,7 @@
         </div>
         <div class="text-container">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
+            This is Ganesh Enamala, the full-stack developer specializing in backend services. At Jobiak Software, a seed stage product company, he built and deployed Spring Boot applications, created user-friendly APIs, optimized scraping methods, and contributed significantly to product enhancement
           </p>
         </div>
       </div>
@@ -100,117 +92,145 @@
     <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow"
       onclick="location.href='./#experience'" />
   </section>
+
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Backend Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="asserts/images/java.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Java</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/html.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/css.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>CSS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-
-            <article>
-              <img src="asserts/images/javascript.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/typescript.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>TypeScript</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/grafana.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Grafana</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
+    <div class="experience-container" onclick="openCompanyWebsite()">
+      <div class="experience-details">
+        <img src="https://www.jobiak.ai/wp-content/uploads/2018/08/logo-jobiak-blue-2x.png" alt="Company Logo"
+          class="company-logo">
+        <div class="experience-info">
+          <h2 class="experience-title">Junior Java Developer</h2>
+          <p class="company-name">Jobiak Software Private Limited</p>
         </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="asserts/images/mongodb.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>MongoDb</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/mysql.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>MySQL</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/slack.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Slack</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/jira.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Jira</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/Github.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Git</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/aws.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>AWS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="asserts/images/gcp.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>GCP</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-          </div>
+        <p class="time-frame">Feb-2022 to Feb-2024</p>
+      </div>
+      <!-- <div class="experience-details">
+        <img src="https://www.jobiak.ai/wp-content/uploads/2018/08/logo-jobiak-blue-2x.png" alt="Company Logo" class="company-logo">
+        <div class="experience-info">
+          <h2 class="experience-title">Trainee Software Engineer</h2>
+          <p class="company-name">Jobiak Software Private Limited</p>
+        </div>
+        <p class="time-frame">2022-Feb to 2022-Jul</p>
+      </div> -->
+    </div>
+    <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
+
+
+  <section id="skills">
+    <p class="section__text__p1">Professional Skills</p>
+    <h1 class="title">Skills Overview</h1>
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="skills-sub-title">Backend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="asserts/images/java.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>Java</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/html.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/css.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>CSS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="asserts/images/javascript.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/typescript.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>TypeScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/grafana.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>Grafana</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="skills-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="asserts/images/mongodb.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>MongoDb</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/mysql.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>MySQL</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/slack.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>Slack</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/jira.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>Jira</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/Github.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>Git</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/aws.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>AWS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="asserts/images/gcp.png" alt="Skills icon" class="icon" />
+            <div>
+              <h3>GCP</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
         </div>
       </div>
     </div>
-    <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#projects'" />
   </section>
+
+
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
@@ -218,37 +238,42 @@
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            <img src="./asserts/images/job-board.png" alt="Project 1" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
+          <h2 class="experience-sub-title project-title">Job board</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/GaneshEnamala/Job-Board', '_blank')">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://job-board-415.web.app/', '_blank')">
               Live Demo
             </button>
           </div>
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            <img src="./asserts/images/aeroplane.png" alt="Project 2" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <h2 class="experience-sub-title project-title">AirLine Reservation</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/GaneshEnamala/AirLine_Reservation', '_blank')">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/','_blank')">
               Live Demo
             </button>
           </div>
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+            <img
+              src="https://c8.alamy.com/comp/2A5FAK2/passenger-transportation-in-india-by-buses-trains-and-airplanes-concept-3d-rendering-isolated-on-white-background-2A5FAK2.jpg"
+              alt="Project 3" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <h2 class="experience-sub-title project-title">Book Trip</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
               Github
@@ -260,8 +285,52 @@
         </div>
       </div>
     </div>
-    <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#education'" />
   </section>
+
+
+  <section id="education">
+    <p class="section__text__p1">Academic Background</p>
+    <h1 class="title">My Education</h1>
+    <div class="education-container">
+      <div class="education-details">
+        <div class="details">
+            <h3>B.Tech in Electronics and Communication (2018 - 2022)</h3>
+            <p>Universal College of Engineering and technology-Guntur</p>
+            <p>JNT University-Kakinada</p>
+        </div>
+        <div class="gpa">
+            <h4>76.1%</h4>
+        </div>
+      </div>
+      <div class="education-details">
+        <div class="details">
+            <h3>Intermediate (2016 - 2018)</h3>
+            <p>Sri Chaitanya Educational Instistute</p>
+            <p>Emphasis in Mathematics and Physics</p>
+        </div>
+        <div class="gpa">
+            <h4>94.7%</h4>
+        </div>
+      </div>
+      <div class="education-details">
+        <div class="details">
+            <h3>High School (2015 - 2016)</h3>
+            <p>SPV Z P High School-Namburu(Guntur)</p>
+            <p>Emphasis in Mathematics and Physics</p>
+        </div>
+        <div class="gpa">
+            <h4>90.0%</h4>
+        </div>
+      </div>
+    </div>
+    <img src="asserts/images/downArrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>
+
+
+
+
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
@@ -276,19 +345,23 @@
       </div>
     </div>
   </section>
+
   <footer>
     <nav>
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <p>Copyright &#169; 2024 Ganesh Enamala. All Rights Reserved.</p>
   </footer>
+
   <script src="asserts/js/script.js"></script>
 </body>
 
