@@ -60,7 +60,6 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-  margin-left: -300px;
 }
 
 .logo:hover {
@@ -85,6 +84,7 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .hamburger-icon span {
@@ -97,7 +97,7 @@ a:hover {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 30;
   background-color: white;
   width: fit-content;
   max-height: 0;
@@ -122,6 +122,7 @@ a:hover {
 .menu-links.open {
   max-height: 300px;
 }
+
 
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);

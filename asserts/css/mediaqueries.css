@@ -10,14 +10,26 @@
   #projects {
     height: fit-content;
   }
+  .mobile-logo{
+    display: block;
+    width: 10rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 1.5rem;
+    position: flex;
+    margin-left: 20rem;
+    margin-top: -2rem;
+    align-items: center;
+    text-align: center;
+  }
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
-    display: flex;
+  display: block;
   }
   #experience,
   .experience-details-container {
@@ -44,6 +56,10 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+
+  .mobile-logo{
+    width: 400px;
   }
 }
 
@@ -80,6 +96,9 @@
   }
   .logo {
     font-size: 1.5rem;
+    position: flex;
+    margin-left: 10rem;
+    margin-top: -2rem;
   }
   .nav-links {
     flex-direction: column;
@@ -107,9 +126,10 @@
     width: 400px;
   }
 }
+
 @media screen and (min-width: 601px) {
-  /* CSS for screens larger than 600px width */
+  
   .mobile-logo {
-    display: none; /* Hide the image on screens larger than 600px width */
+    display: none;
   }
 }
