@@ -1,30 +1,9 @@
-#desktop-nav {
-  display: flex;
-}
-#hamburger-nav {
-  display: none;
-}
-
 @media screen and (max-width: 1400px) {
-  .logo {
-    margin-top: 0;
-    margin-left: 2rem;
-  }
-
-  .dp {
-    height: 180px;
-    margin-top: 0;
-    margin-left: 2rem;
-  }
-
-
   #profile {
     height: 83vh;
-    margin-bottom: 0rem;
+    margin-bottom: 6rem;
   }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
+  .about-containers {
     flex-wrap: wrap;
   }
   #contact,
@@ -59,46 +38,48 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 100%;
-    max-width: 275px;
-    height: auto;
+    width: 275px;
+    height: 275px;
     margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
   }
-
-  .logo {
-    margin-left: 2rem; /* Adjust margin-left to maintain spacing */
-  }
-
-  .dp {
-    margin-left: 2rem; /* Adjust margin-left to maintain spacing */
-  }
 }
 
 @media screen and (max-width: 600px) {
+  #contact,
   footer {
     height: 40vh;
   }
   #profile {
+    height: 83vh;
     margin-bottom: 0;
   }
-  article,
-  .contact-info-container p,
-  .nav-links li a {
+  article {
     font-size: 1rem;
   }
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
   }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
   .experience-sub-title {
     font-size: 1.25rem;
   }
   .logo {
     font-size: 1.5rem;
-    margin-left: 2rem;
   }
   .nav-links {
     flex-direction: column;
@@ -106,43 +87,17 @@
     text-align: center;
   }
   .section__pic-container {
+    width: auto;
     height: 46vw;
+    justify-content: center;
   }
   .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
     font-size: 2rem;
-    display: flex;
-    align-items: center;
-  }
-  .title img {
-    margin-left: 0.5rem;
   }
   .text-container {
     text-align: justify;
-  }
-
-  /* Additional modifications */
-  .logo {
-    font-size: 1.5rem; /* Adjust font size for better readability */
-  }
-
-  .section__pic-container {
-    height: 46vw; /* Adjust height based on screen width */
-  }
-
-  .title {
-    font-size: 2rem; /* Adjust font size for better readability */
-    display: flex;
-    align-items: center;
-  }
-
-  .title img {
-    margin-left: 0.5rem; /* Adjust spacing between title text and image */
-  }
-
-  .text-container {
-    text-align: justify; /* Ensure text alignment is consistent */
   }
 }
