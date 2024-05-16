@@ -182,6 +182,10 @@ section {
   text-align: center;
 }
 
+.section__text image{
+  display: none;
+}
+
 .section__text p {
   font-weight: 600;
 }

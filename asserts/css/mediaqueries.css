@@ -100,4 +100,16 @@
   .text-container {
     text-align: justify;
   }
+   .contact-info-upper-container {
+    gap: 20px;
+  }
+  .mobile-logo{
+    width: 400px;
+  }
+}
+@media screen and (min-width: 601px) {
+  /* CSS for screens larger than 600px width */
+  .mobile-logo {
+    display: none; /* Hide the image on screens larger than 600px width */
+  }
 }
