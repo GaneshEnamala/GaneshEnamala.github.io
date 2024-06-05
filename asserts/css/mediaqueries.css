@@ -6,9 +6,12 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
+  #contact{
+    height: fit-content;
+  }
   #projects {
     height: fit-content;
+    margin-top: 32rem;
   }
   .mobile-logo{
     display: block;
@@ -127,8 +130,7 @@
   }
 }
 
-@media screen and (min-width: 601px) {
-  
+@media screen and (min-width: 601px) { 
   .mobile-logo {
     display: none;
   }
