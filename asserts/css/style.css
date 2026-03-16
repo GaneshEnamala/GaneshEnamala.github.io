@@ -626,6 +626,8 @@ footer {
 
 .experience-highlights ul {
   margin-left: 1.25rem;
+  padding-left: 0.5rem;
+  list-style: disc;
   color: var(--muted);
   display: grid;
   gap: 0.5rem;
